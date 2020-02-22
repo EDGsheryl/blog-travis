@@ -1,5 +1,6 @@
 language: node_js
 os: linux
+committer_from_gh: true
 node_js:
   - 13.1.0
 
@@ -16,9 +17,6 @@ script:
   - hexo generate
 
 after_script:
-  - git config user.name "EDGsheryl"
-  - git config user.email "edgsheryl@gmail.com"
   - sed -i "s/gh_token/${GITHUB_TOKEN}/g" ./_config.yml
   - hexo deploy
 # End: Build LifeCycle
-
