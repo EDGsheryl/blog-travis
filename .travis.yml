@@ -1,9 +1,24 @@
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep_history: true
-  on:
-    branch: master
-  repo: edgsheryl/edgsheryl.github.io
-  committer_from_gh: true
+language: node_js
+sudo: required
+node_js:
+  - 13.1.0
+
+before_install:
+  - npm install -g hexo-cli
+
+# Start: Build Lifecycle
+install:
+  - npm install
+  - npm install hexo-deployer-git --save
+
+script:
+  - hexo clean
+  - hexo generate
+
+after_script:
+  - git config user.name "EDGsheryl"
+  - git config user.email "edgsheryl@gmail.com"
+  - sed -i "s/gh_token/${GH_TOKEN}/g" ./_config.yml
+  - hexo deploy
+# End: Build LifeCycle
+
