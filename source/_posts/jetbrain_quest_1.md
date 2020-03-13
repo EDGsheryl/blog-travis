@@ -2,8 +2,8 @@ title: JetBrains Quest Challenge 1
 date: 2020-03-10 12:00:00
 desc: 
 tags: [JetBrains, CTF] 
-index_img: https://edgsheryl.oss-cn-hangzhou.aliyuncs.com/travis/travis.jpg
-banner_img: https://edgsheryl.oss-cn-hangzhou.aliyuncs.com/travis/travis.jpg
+index_img: https://edgsheryl.oss-cn-hangzhou.aliyuncs.com/jetbrains-quest/quest-title-1.jpg
+banner_img: https://edgsheryl.oss-cn-hangzhou.aliyuncs.com/jetbrains-quest/quest-title-1.jpg
 ---
 
 JetBrains 给大家发福利了，免费三个月 All package 的 Coupon Code，只需要参加官方举办的 Quest Challenge，这是一个程序猿解密游戏
@@ -147,3 +147,11 @@ print(ans)
 接下来的你懂了吧！
 
 ![](https://edgsheryl.oss-cn-hangzhou.aliyuncs.com/jetbrains-quest/cong-letter1.png)
+
+除了本次的奖励之外，其实邮件里还有一些细节
+
+![](https://edgsheryl.oss-cn-hangzhou.aliyuncs.com/jetbrains-quest/next-clues.png)
+
+比如下面的时间，他是一个 UNIX 时间戳。
+
+还有那一行 `Y0U H4V3` 的信息都比较嗨客
