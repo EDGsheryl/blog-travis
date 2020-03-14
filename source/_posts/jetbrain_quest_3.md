@@ -1,5 +1,5 @@
-title: JetBrains Quest Challenge 1
-date: 2020-03-13 12:00:00
+title: JetBrains Quest Challenge 3
+date: 2020-03-14 17:43:00
 desc: 
 tags: [JetBrains, CTF] 
 index_img: https://edgsheryl.oss-cn-hangzhou.aliyuncs.com/jetbrains-quest/quest-title-3.jpg

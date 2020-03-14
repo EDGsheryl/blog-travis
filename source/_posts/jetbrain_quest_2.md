@@ -1,4 +1,4 @@
-title: JetBrains Quest Challenge 1
+title: JetBrains Quest Challenge 2
 date: 2020-03-13 12:00:00
 desc: 
 tags: [JetBrains, CTF] 
